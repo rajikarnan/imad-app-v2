@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('imad-app-v2/ui/shin_chan_anime_folder_icon_by_ryuichi93-d7qmznf.png', function (req, res) {
+app.get('/ui/shin_chan_anime_folder_icon_by_ryuichi93-d7qmznf.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'shin_chan_anime_folder_icon_by_ryuichi93-d7qmznf.png'));
 });
 
