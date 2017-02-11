@@ -17,11 +17,11 @@ app.get('imad-app-v2/ui/Shin%20Chan.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Shin%20Chan.jpg'));
 });  
 app.get('/article-two', function (req,res){
-   res.send('this is article two');
+   res.sendFile(path.join(__dirname, 'ui', 'articele-two.html'));
 });
 
 app.get('/article-three', function (req,res){
-   res.send('this is article three');
+   res.sendFile(path.join(__dirname, 'ui', 'articele-three.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
