@@ -11,7 +11,10 @@ app.get('/', function (req, res) {
 
 app.get('/article-one', function (req,res){
     res.sendFile(path.join(__dirname, 'ui', 'articele-one.html'));
-    
+});
+
+app.get('/article-one', function (req,res){
+    res.sendFile(path.join(__dirname, 'ui', 'Shin%20Chan.jpg'));
 });
 
 app.get('/article-two', function (req,res){
