@@ -1,6 +1,6 @@
 body {
-    font-family: sans-serif;
-    background-color: lightgrey;
+    font-family: cursive;
+    background-color: black;
     margin-top: 75px;
 }
 
@@ -10,7 +10,6 @@ body {
 
 .text-big {
     font-size: 300%;
-    color:red;
 }
 
 .bold {
