@@ -13,8 +13,8 @@ app.get('/article-one', function (req,res){
     res.sendFile(path.join(__dirname, 'ui', 'articele-one.html'));
 });
 
-app.get('/ui/ABAC.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'ABAC.png'));
+app.get('imad-app-v2/ui/Shin%20Chan.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Shin%20Chan.jpg'));
 });  
 app.get('/article-two', function (req,res){
    res.send('this is article two');
