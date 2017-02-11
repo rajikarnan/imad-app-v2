@@ -13,7 +13,7 @@ app.get('/article-one', function (req,res){
     res.sendFile(path.join(__dirname, 'ui', 'articele-one.html'));
 });
 
-app.get('/article-one', function (req,res){
+app.get('/ui/Shin%20Chan.jpg', function (req,res){
     res.sendFile(path.join(__dirname, 'ui', 'Shin%20Chan.jpg'));
 });
 
