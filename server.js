@@ -18,7 +18,7 @@ app.get('/ui/make-way-for-noddy.png', function (req, res) {
 });
 
 app.get('/ui/Tom-And-Jerry.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', '/ui/Tom-And-Jerry.png'));
+  res.sendFile(path.join(__dirname, 'ui', 'Tom-And-Jerry.png'));
 });
 
 app.get('/article-one', function (req,res){
