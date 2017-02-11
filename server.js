@@ -13,9 +13,6 @@ app.get('/article-one', function (req,res){
     res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
 
-app.get('imad-app-v2/ui/Shin%20Chan.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Shin%20Chan.jpg'));
-});  
 app.get('/article-two', function (req,res){
    res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
 });
