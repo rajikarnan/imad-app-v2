@@ -13,6 +13,14 @@ app.get('/ui/shin_chan_anime_folder_icon_by_ryuichi93-d7qmznf.png', function (re
   res.sendFile(path.join(__dirname, 'ui', 'shin_chan_anime_folder_icon_by_ryuichi93-d7qmznf.png'));
 });
 
+app.get('/ui/make-way-for-noddy.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'make-way-for-noddy.png'));
+});
+
+app.get('/ui/Tom-And-Jerry.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '/ui/Tom-And-Jerry.png'));
+});
+
 app.get('/article-one', function (req,res){
     res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
