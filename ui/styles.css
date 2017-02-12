@@ -1,6 +1,6 @@
 body {
     font-family: cursive;
-    background:"/ui/shin_chan_anime_folder_icon_by_ryuichi93-d7qmznf.png";
+    background-image:URL("shin_chan_anime_folder_icon_by_ryuichi93-d7qmznf.png");
     background-color: black;
     margin-top: 75px;
     z-index: -1;
