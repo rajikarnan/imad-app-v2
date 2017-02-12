@@ -17,3 +17,11 @@ body {
 .img-medium {
     height: 200px;
 }
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color:#820d96;
+    border: solid 1px #820d96 ;
+    border-radius: 5px;
+    
+}
